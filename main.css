@@ -34,6 +34,7 @@ hr {
 }
 
 footer {
+    vertical-align: middle;
     background: #350051;
     color: #FFFFFF;
     font-family: sans-serif;
@@ -76,6 +77,10 @@ footer p {
 	height: 100%;
 }
 
+a .addthis_follow_label {
+    color: white;
+}
+
 @media only screen and (min-width: 768px) {
     #main {
         margin: 30px auto;
@@ -90,4 +95,36 @@ footer p {
     #bookings p {
         padding: 0px 10px 7px 10px;
     }
+}
+
+/* Stolen CSS for instagram button */
+.addthis_toolbox a.at300b, .addthis_toolbox a.at300m {
+    width: auto;
+}
+.addthis_default_style .at300b, .addthis_default_style .at300bo, .addthis_default_style .at300m {
+    padding: 0 2px;
+}
+.addthis_default_style .addthis_separator, .addthis_default_style .at4-icon, .addthis_default_style .at300b, .addthis_default_style .at300bo, .addthis_default_style .at300bs, .addthis_default_style .at300m {
+    float: left;
+}
+.addthis_toolbox a {
+    margin-bottom: 5px;
+    line-height: initial;
+}
+.at300b, .at300bo, .at300bs, .at300m {
+    cursor: pointer;
+}
+
+a .at-icon-wrapper {
+    cursor: pointer;
+}
+.at-icon-wrapper {
+    display: inline-block;
+    overflow: hidden;
+}
+
+.at-icon {
+    fill: 
+    #fff;
+    border: 0;
 }
