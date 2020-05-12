@@ -2,6 +2,8 @@
 
 body {
     background: url('bg-min.jpg');
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 h1 {
@@ -85,9 +87,6 @@ a .addthis_follow_label {
     #main {
         margin: 30px auto;
         width: 640px;
-    }
-    body {
-        background-size: cover;
     }
     h1 {
         padding: 10px 10px 0px 10px;
